@@ -1,0 +1,6 @@
+A diferença entre selecionar o sensor transmissivo ou o reflexivo depende inteiramente do tipo de mídia (etiquetas, tags, etc.) que você está usando na impressora. A configuração do sensor informa à impressora como detectar o início e o fim de cada etiqueta.
+
+Veja como as duas configurações diferem com base no tipo de mídia:
+
+- **Sensor Reflexivo:** Esta configuração é usada principalmente para mídias que possuem marcas pretas ou linhas pretas na parte de trás. Funciona refletindo a luz no verso da mídia; como as marcações pretas não refletem a luz da mesma forma que o liner ou papel de etiqueta regular, a impressora pode detectar a marca de registro. Em algumas séries de impressoras industriais (como a ZT111 e ZT200), o sensor reflexivo é versátil o suficiente para ser usado com todos os tipos de mídia.
+- **Sensor Transmissivo:** Esta configuração é usada quando a impressora precisa "enxergar através" da mídia e do liner. É projetado para detectar vãos, pontilhados, entalhes ou furos recortados em etiquetas regulares e mídias contínuas que não possuem marcas pretas de rastreamento. Para muitos modelos industriais, recomenda-se usar o sensor transmissivo apenas para mídias com vãos simples.
