@@ -1,0 +1,6 @@
+#Ignore a pasta .obsidian
+.obsidian
+
+#Ignore o arquivo 'Modelo problema_solução.md'
+
+Modelo problema_solução.md

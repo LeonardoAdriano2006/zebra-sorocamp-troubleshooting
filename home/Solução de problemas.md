@@ -1,9 +1,10 @@
 [[Erros relacionados à impressão]]
-
 [[Calibração manual]]
+[[Configuração de IP |Não está pegando IP]]
 
-[[Configuração de IP | Não está pegando IP]]
+## 🔗 Documentação oficial
 
+[Suporte e documentação — Zebra](https://support.zebra.com/pt-BR/?utm_source=chatgpt.com)
 # Solução de Problemas — Impressoras Zebra
 
 ## 🖨️ Problemas de Impressão
