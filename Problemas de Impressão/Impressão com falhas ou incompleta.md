@@ -10,5 +10,5 @@ Caso sejam identificadas falhas na impressão, verifique:
 - [[Cabeçote riscado |Cabeçote riscado;]]
 - [[Sujeira no cabeçote|Sujeira no cabeçote;]]
 - [[Rolete liso ou com cortes |Rolete liso ou com cortes;]]
-- [[Ribbon vincando]].
+- [[Problemas com Ribbon]].
 - [[Pino de pressão|Pouco pressão]]

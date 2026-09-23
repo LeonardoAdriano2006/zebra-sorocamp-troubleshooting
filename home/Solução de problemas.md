@@ -10,6 +10,7 @@
 ## 🖨️ Problemas de Impressão
 
 - [[Erros relacionados à impressão]]
+- [[Problemas com Ribbon]]
 - [[Impressão com falhas ou incompleta]]
 - [[Impressão desalinhada]]
 - [[Impressora não imprime]]
@@ -21,7 +22,7 @@
 - [[Configuração do tipo de mídia]]
 - [[Configuração do tipo de sensor]]
 - [[Problemas com sensor de mídia]]
-- [[Problemas com sensor de fita]]
+- [[Problemas com sensor de ribbon]]
 
 ## 🌐 Rede e Comunicação
 

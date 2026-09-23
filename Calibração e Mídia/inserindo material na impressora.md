@@ -139,9 +139,9 @@ O lado revestido deve ficar voltado para a mídia durante a impressão por trans
 
 Consulte também:
 
-[[Problemas com sensor de fita]]
+[[Problemas com sensor de ribbon]]
 
-[[Ribbon vincando]]
+[[Problemas com Ribbon]]
 
 ---
 >[!Tip]
@@ -220,7 +220,7 @@ Consulte:
     
 - [[Problemas com sensor de mídia]]
     
-- [[Problemas com sensor de fita]]
+- [[Problemas com sensor de ribbon]]
     
 - [[Impressão com falhas ou incompleta]]
     

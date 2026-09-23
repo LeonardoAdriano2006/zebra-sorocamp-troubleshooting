@@ -113,4 +113,4 @@ Consulte:
     
 - [[Problemas com sensor de mídia]]
     
-- [[Ribbon vincando]]
+- [[Problemas com Ribbon]]
