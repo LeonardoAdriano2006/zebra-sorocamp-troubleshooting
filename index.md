@@ -1,3 +1,5 @@
+# Solução de problemas — Impressoras Zebra
+
 Base de conhecimento para configuração, diagnóstico e solução de problemas em impressoras Zebra.
 
 Utilize as categorias abaixo para localizar o procedimento ou problema desejado.
