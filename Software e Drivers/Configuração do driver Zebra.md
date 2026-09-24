@@ -1,5 +1,3 @@
-# Configuração do Driver Zebra
-
 As configurações do driver Zebra determinam como os trabalhos de impressão serão enviados para a impressora.
 
 Por meio do driver, dependendo do modelo e da configuração, é possível configurar:

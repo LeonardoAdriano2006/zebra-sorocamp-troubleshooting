@@ -1,6 +1,65 @@
-A diferença entre selecionar o sensor transmissivo ou o reflexivo depende inteiramente do tipo de mídia (etiquetas, tags, etc.) que você está usando na impressora. A configuração do sensor informa à impressora como detectar o início e o fim de cada etiqueta.
+O sensor de mídia permite que a impressora identifique a posição da mídia e determine onde cada etiqueta começa e termina.
 
-Veja como as duas configurações diferem com base no tipo de mídia:
+A escolha entre **sensor transmissivo** e **sensor reflexivo** depende principalmente do tipo de mídia utilizado e de como ela fornece uma referência para a impressora.
 
-- **Sensor Reflexivo:** Esta configuração é usada principalmente para mídias que possuem marcas pretas ou linhas pretas na parte de trás. Funciona refletindo a luz no verso da mídia; como as marcações pretas não refletem a luz da mesma forma que o liner ou papel de etiqueta regular, a impressora pode detectar a marca de registro. Em algumas séries de impressoras industriais (como a ZT111 e ZT200), o sensor reflexivo é versátil o suficiente para ser usado com todos os tipos de mídia.
-- **Sensor Transmissivo:** Esta configuração é usada quando a impressora precisa "enxergar através" da mídia e do liner. É projetado para detectar vãos, pontilhados, entalhes ou furos recortados em etiquetas regulares e mídias contínuas que não possuem marcas pretas de rastreamento. Para muitos modelos industriais, recomenda-se usar o sensor transmissivo apenas para mídias com vãos simples.
+## 🔦 Sensor Transmissivo
+
+O sensor transmissivo funciona através da passagem de luz pela mídia.
+
+Ele é utilizado principalmente para detectar:
+
+- Espaços entre etiquetas (**Gap/Web**);
+    
+- Entalhes (**Notches**);
+    
+- Furos utilizados como referência;
+    
+- Outras diferenças de transparência presentes na mídia.
+    
+
+Em uma etiqueta convencional com liner, por exemplo, o sensor consegue identificar a diferença entre a região onde existe uma etiqueta e o espaço entre duas etiquetas.
+
+> [!NOTE]  
+> O posicionamento do sensor é importante. Ele deve estar alinhado com a região da mídia utilizada como referência.
+
+---
+
+## ⚫ Sensor Reflexivo
+
+O sensor reflexivo funciona analisando a quantidade de luz refletida pela mídia.
+
+É utilizado principalmente em materiais que possuem uma **marca preta (Black Mark)** utilizada como referência.
+
+A marca apresenta uma reflexão diferente do restante da mídia, permitindo que a impressora identifique sua posição.
+
+> [!NOTE]  
+> Em determinados modelos, o sensor reflexivo pode possuir outras aplicações além da detecção de Black Mark. Consulte a documentação específica da impressora para verificar os tipos de mídia suportados pelo sensor.
+
+---
+
+## 🔎 Qual sensor utilizar?
+
+De maneira geral:
+
+|Característica da mídia|Sensor normalmente utilizado|
+|---|---|
+|Espaço entre etiquetas (Gap/Web)|Transmissivo|
+|Entalhe ou furo|Transmissivo|
+|Marca preta (Black Mark)|Reflexivo|
+
+> [!IMPORTANT]  
+> O tipo de sensor deve corresponder à forma como a impressora precisa identificar a mídia.
+> 
+> Utilizar o sensor incorreto pode fazer com que uma calibração seja concluída de maneira inadequada ou fazer com que a impressora não identifique corretamente o início e o fim das etiquetas.
+
+## Consulte também
+
+- [[Configuração do tipo do sensor]]
+    
+- [[Tipos de mídia]]
+    
+- [[Configuração do tipo de mídia]]
+    
+- [[Problemas com sensor de mídia]]
+    
+- [[Calibração manual]]
