@@ -1,6 +1,14 @@
-#Ignore a pasta .obsidian
+.DS_Store
+.gitignore
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
 .obsidian
-
-#Ignore o arquivo 'Modelo problema_solução.md'
-
-Modelo problema_solução.md
+.quartz-cache
+private/
+.replit
+replit.nix
+.quartz/
+quartz/cli/tui/dist/
+.turbo/
