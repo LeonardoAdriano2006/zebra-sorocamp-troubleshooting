@@ -57,8 +57,10 @@ Após concluir a calibração:
 3. Observe se a impressão está posicionada corretamente.
     
 4. Caso o problema persista, verifique as configurações do sensor e da mídia.
-    
 
+##Exemplo
+
+[Calibração Manual na ZT411](https://drive.google.com/file/d/1_y2Rr3mHQBS4iw3qZkEj0Oox1LqcDsrp/view?usp=drive_link)
 ## 🔗 Procedimentos relacionados e Links
 
 - [[Impressão desalinhada]]
