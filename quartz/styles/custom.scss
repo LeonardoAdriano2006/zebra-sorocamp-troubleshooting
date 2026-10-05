@@ -1,0 +1,172 @@
+@use "./variables.scss" as *;
+
+// =========================================================
+// HOME - CARDS DE NAVEGAÇÃO
+// =========================================================
+
+.doc-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.doc-card {
+  position: relative;
+  overflow: hidden;
+
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  padding: 1.25rem 1.4rem;
+  background: var(--light);
+
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.doc-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 4px;
+
+  background: var(--secondary);
+}
+
+.doc-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--secondary);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+// Título do card
+.doc-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+
+// Descrição
+.doc-card p {
+  color: var(--darkgray);
+}
+
+// Lista de procedimentos
+.doc-card ul {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.doc-card li {
+  margin: 0.3rem 0;
+}
+
+// Links
+.doc-card a {
+  text-decoration: none;
+}
+
+.doc-card a:hover {
+  text-decoration: underline;
+}
+
+
+// =========================================================
+// RESPONSIVIDADE
+// =========================================================
+
+@media (max-width: 700px) {
+  .doc-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+// =========================================================
+// IDENTIDADE SOROCAMP - SIDEBAR
+// =========================================================
+
+.sidebar.left {
+  padding-top: 1rem;
+}
+
+.page-title {
+  padding-top: 145px;
+  position: relative;
+}
+
+.page-title::before {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 320px;
+  height: 150px;
+
+  background-image: url("/static/Sorocamp_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.page-title a {
+  font-size: 1.35rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+// =========================================================
+// SEARCH
+// =========================================================
+
+// Fundo sólido da janela de pesquisa
+.search > .search-container {
+  background: var(--light) !important;
+}
+
+// Fundo sólido da área interna
+.search > .search-container > .search-space {
+  background: var(--light) !important;
+}
+
+// Área que contém resultados + preview
+.search > .search-container > .search-space > .search-layout {
+  background: var(--light) !important;
+}
+
+// Coluna dos resultados
+.search .results-container {
+  background: var(--light) !important;
+}
+
+// Cards dos resultados
+.search .results-container .result-card {
+  background: var(--light) !important;
+}
+
+// Destaque ao passar o mouse ou navegar pelo teclado
+.search .results-container .result-card:hover,
+.search .results-container .result-card:focus,
+.search .results-container .result-card.focus {
+  background: var(--lightgray) !important;
+}
+
+// Caso o título esteja vazio, exibe a descrição.
+// Isso contorna o problema atual das páginas sem title.
+.search
+  > .search-container
+  > .search-space
+  > .search-layout[data-preview]
+  .result-card:has(> .card-title:empty)
+  > p.card-description {
+  display: block !important;
+}
