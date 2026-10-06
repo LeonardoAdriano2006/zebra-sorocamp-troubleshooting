@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Solucao
-  pageTitleSuffix: "|Zebra-troubleshooting "
+  pageTitle: "Solução de Problemas"
+  pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: pt-BR
   baseUrl: LeonardoAdriano2006.github.io/zebra-sorocamp-troubleshooting
   ignorePatterns:
     - private
