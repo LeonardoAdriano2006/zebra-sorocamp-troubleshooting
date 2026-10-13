@@ -1,5 +1,5 @@
 ---
-title: Solução de Problemas
+title: troubleshooting
 ---
 
 # Solução de problemas — Impressoras Zebra
